@@ -26,4 +26,5 @@ app.post('/login', function (req, res) {
     .end();
 });
 
-app.listen(3200, 'localhost', () => console.log('server started on 3100'));
+const port = 3200;
+app.listen(port, 'localhost', () => console.log(`server started on ${port}`));
